@@ -1,0 +1,20 @@
+Breakdown of the tasks
+
+Write boilerplate code✅
+Generate Mock data from Mocckery website✅
+Practice HTTP Methods: 
+=> 1. Use Get request to render the JSON data in HTML✅
+    GET /users => Render the data in HTML
+=> 2. Use Get request to render the JSON data✅
+    GET /api/users => Render the data in JSON format (in this case we don't need the HTML)
+=> 3. Use Get request to render the data for a specific users✅
+    GET /api/users/:id => Render the data for that specific id
+    In this case, ":id" is dynamic
+=> 4. Use Post request to  Create new user.✅
+    POST /api/users => Create new user in the database
+=> 5. Use Patch request to update the user in the database. 
+    POST /api/users/:id => Update the user at the id
+=> 6. Use Delete request to delete the user from the database. 
+    DELETE /api/users/:id => Delete user at the speific id
+
+
